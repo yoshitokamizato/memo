@@ -13,10 +13,11 @@ h3 {
 }
 
 .contents {
-  width: 200px;
+  width: 500px;
   padding: 10px;
   background-color: #BB0000;
   color: white;
+  font-size: 30px;
   margin: 10px 0px;
 }
 
@@ -29,12 +30,23 @@ h3 {
 }
 
 .create {
-  width: 200px;
+  width: 500px;
   padding: 10px;
   background-color: #BB0000;
   margin: 10px 0px;
+  font-size: 30px;
 }
 
 a {
   color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+input {
+  width: 480px;
+}
+
+textarea {
+  width: 480px;
 }
