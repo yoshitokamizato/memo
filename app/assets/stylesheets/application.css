@@ -1,0 +1,27 @@
+h3 {
+  color: white;
+}
+
+.contents {
+  width: 200px;
+  padding: 10px;
+  background-color: #BB0000;
+}
+
+.contents input {
+  margin: 10px 0px;
+}
+
+.contents textarea {
+  margin: 10px 0px;
+}
+
+.create {
+  width: 200px;
+  padding: 10px;
+  background-color: #BB0000;
+}
+
+.create a {
+  color: white;
+}
