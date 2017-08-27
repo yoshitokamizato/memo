@@ -2,10 +2,22 @@ h3 {
   color: white;
 }
 
+.navbar {
+  height: 80px;
+  background-color: #BB0000;
+  padding: 20px;
+}
+
+.navbar h1 {
+  color: white;
+}
+
 .contents {
   width: 200px;
   padding: 10px;
   background-color: #BB0000;
+  color: white;
+  margin: 10px 0px;
 }
 
 .contents input {
@@ -22,6 +34,6 @@ h3 {
   background-color: #BB0000;
 }
 
-.create a {
+a {
   color: white;
 }

@@ -1,6 +1,10 @@
 
 <% @talk.each do |data| %>
-  <p><%= data.name %></p>
-  <p><%= data.text %></p>
+  <div class="contents">
+    <p><%= data.name %></p>
+    <p><%= data.text %></p>
+  </div>
 <% end %>
-<a href="/main/new">投稿する</a>
+  <div class="contents">
+    <a href="/main/new">投稿する</a>
+  </div>
