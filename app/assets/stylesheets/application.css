@@ -18,7 +18,7 @@ h3 {
   background-color: #BB0000;
   color: white;
   font-size: 30px;
-  margin: 10px 0px;
+  margin: 10px auto;
 }
 
 .contents input {
@@ -33,7 +33,7 @@ h3 {
   width: 500px;
   padding: 10px;
   background-color: #BB0000;
-  margin: 10px 0px;
+  margin: 10px auto;
   font-size: 30px;
 }
 
