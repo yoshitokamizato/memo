@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'main' => 'main#main'
   get '/main/new' => 'main#new'
   post '/main' => 'main#create'
+  delete '/main/:id' => 'main#destroy'
 end
