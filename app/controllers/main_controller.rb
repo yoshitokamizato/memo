@@ -1,9 +1,6 @@
 class MainController < ApplicationController
   before_action :move_to_index, except: :main
 
-  def index
-  end
-
   def main
     @talk = Talk.all
   end
