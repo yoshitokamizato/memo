@@ -8,8 +8,15 @@ h3 {
   padding: 20px;
 }
 
+.navbar a {
+  padding: 20px;
+  float: right;
+  color: white;
+}
+
 .navbar h1 {
   color: white;
+    float: left;
 }
 
 .contents {

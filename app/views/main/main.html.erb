@@ -1,3 +1,4 @@
+<% if user_signed_in? %>
   <div class="contents">
     <a href="/main/new">投稿する</a>
   </div>
@@ -7,4 +8,5 @@
     <p><%= data.text %></p>
     <%= link_to '削除', "/main/#{data.id}", method: :delete %>
   </div>
+<% end %>
 <% end %>
