@@ -2,7 +2,7 @@ class MainController < ApplicationController
   before_action :move_to_index, except: :main
 
   def main
-    @talk = Talk.all
+    @talk = Talk.all.order("created_at DESC")
   end
 
   def create
