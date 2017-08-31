@@ -1,7 +1,4 @@
 <% if user_signed_in? %>
-  <div class="contents">
-      <a href="/main/new">投稿する</a>
-  </div>
   <% @talk.each do |data| %>
     <div class="contents">
       <p><%= data.name %></p>
