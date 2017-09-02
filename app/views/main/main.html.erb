@@ -1,9 +1,4 @@
 <% if user_signed_in? %>
-  <% @talk.each do |data| %>
-    <div class="contents">
-      <p><%= data.name %></p>
-      <p><%= data.text %></p>
-      <%= link_to '削除', "/main/#{data.id}", method: :delete %>
-    </div>
-  <% end %>
+  <% @talk.name %>
+
 <% end %>

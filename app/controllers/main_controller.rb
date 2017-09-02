@@ -2,7 +2,7 @@ class MainController < ApplicationController
   before_action :move_to_index, except: :main
 
   def main
-    @talk = Talk.all.order("created_at DESC")
+    @talk = current_user.talks.order("created_at DESC")
   end
 
   def create
@@ -11,7 +11,6 @@ class MainController < ApplicationController
 
   def destroy
     talk = Talk.find(params[:id])
-    talk.destroy
   end
 
   private
