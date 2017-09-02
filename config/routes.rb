@@ -5,5 +5,4 @@ Rails.application.routes.draw do
   get '/main/new' => 'main#new'
   post '/main' => 'main#create'
   delete '/main/:id' => 'main#destroy'
-  get '/main' => 'main#index'
 end
